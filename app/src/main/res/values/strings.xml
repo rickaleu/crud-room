@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MySubscribers</string>
+
+    <!-- Subscribers -->
+    <string name="subscribers_hint_name">Nome do assinante</string>
+    <string name="subscribers_hint_email">E-mail</string>
+
+</resources>
