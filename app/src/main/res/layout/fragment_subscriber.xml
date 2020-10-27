@@ -21,7 +21,7 @@
             android:id="@+id/subscribers_edit_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/subscribers_hint_name"
+            android:hint="@string/subscribers_edit_name_hint"
             android:inputType="textCapSentences" />
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -41,9 +41,21 @@
             android:id="@+id/subscribers_edit_email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/subscribers_hint_email"
+            android:hint="@string/subscribers_edit_email_hint"
             android:inputType="textEmailAddress" />
 
     </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/subscribers_button_add"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/subscribers_button_add"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subscribers_input_layout_email" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -2,7 +2,9 @@
     <string name="app_name">MySubscribers</string>
 
     <!-- Subscribers -->
-    <string name="subscribers_hint_name">Nome do assinante</string>
-    <string name="subscribers_hint_email">E-mail</string>
+    <string name="subscriber_nav_title">Meus Inscritos</string>
+    <string name="subscribers_edit_name_hint">Nome do inscrito</string>
+    <string name="subscribers_edit_email_hint">E-mail</string>
+    <string name="subscribers_button_add">Add</string>
 
 </resources>
